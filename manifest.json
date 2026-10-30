@@ -5,15 +5,18 @@
   "description": "Export a Rate My Professors profile and all loaded reviews as Markdown.",
   "permissions": [
     "activeTab",
-    "scripting"
+    "scripting",
+    "downloads"
   ],
   "host_permissions": [
     "https://www.ratemyprofessors.com/*",
     "https://ratemyprofessors.com/*"
   ],
   "action": {
-    "default_title": "Export Rate My Professors page",
-    "default_popup": "popup.html"
+    "default_title": "Export Rate My Professors page"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
   },
   "content_scripts": [
     {

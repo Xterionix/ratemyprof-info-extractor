@@ -8,7 +8,7 @@ This Chrome extension exports the professor name, overall rating, rating count, 
 2. Enable **Developer mode**.
 3. Select **Load unpacked** and choose this folder.
 4. Open a professor profile on [Rate My Professors](https://www.ratemyprofessors.com/).
-5. Click the extension icon and select **Export Markdown**.
+5. Click the extension icon. The Markdown file downloads automatically.
 
 The extension clicks visible “Load more” / “Show more” review controls until there are no more, then downloads a Markdown file named after the professor.
 
